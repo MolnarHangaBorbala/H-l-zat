@@ -57,20 +57,20 @@ FastEthernet0/1 (ISP/Cluster felé):
 
 **4.Lépés: DHCP beállítása**
 
-   Router> enable
-   Router# configure terminal
+   *   Router> enable
+   *   Router# configure terminal
 
-! DHCP pool létrehozása
-   Router(config)# ip dhcp pool CLUSTER_POOL
-   Router(dhcp-config)# network 192.168.1.0 255.255.255.252
-   Router(dhcp-config)# default-router 192.168.1.1
-   Router(dhcp-config)# exit
+*! DHCP pool létrehozása
+   *   Router(config)# ip dhcp pool CLUSTER_POOL
+   *   Router(dhcp-config)# network 192.168.1.0 255.255.255.252
+   *   Router(dhcp-config)# default-router 192.168.1.1
+   *   Router(dhcp-config)# exit
 
-! A poolhoz tartozó interfészen ne kérjen maga is DHCP-t
-   Router(config)# interface FastEthernet0/1
-   Router(config-if)# ip address 192.168.1.1 255.255.255.252
-   Router(config-if)# no shutdown
-   Router(config-if)# exit
+*! A poolhoz tartozó interfészen ne kérjen maga is DHCP-t
+   *   Router(config)# interface FastEthernet0/1
+   *   Router(config-if)# ip address 192.168.1.1 255.255.255.252
+   *   Router(config-if)# no shutdown
+   *   Router(config-if)# exit
 
-! (Biztosításképp tiltsuk le az interfész saját DHCP igényét)
-   Router(config)# no ip dhcp conflict logging
+*! (Biztosításképp tiltsuk le az interfész saját DHCP igényét)
+   *   Router(config)# no ip dhcp conflict logging

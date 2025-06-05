@@ -30,6 +30,7 @@
 ---
 **3.Lépés: IP-címek beállítása**
 Eszközönkénti beállítások:
+
 🖥️ PC0
 *   IP-cím: 192.168.2.10
 *   Subnet mask: 255.255.255.240

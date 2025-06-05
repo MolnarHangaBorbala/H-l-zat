@@ -28,7 +28,32 @@
         Server1: GigaEthernet0
         
 3.Lépés: IP-címek beállítása
-    
+Eszközönkénti beállítások:
+🖥️ PC0
+   IP-cím: 192.168.2.10
+   Subnet mask: 255.255.255.240
+   Default gateway: 192.168.2.1 (Router0 LAN interfésze)
+
+🌐 Router0
+FastEthernet0/0 (PC0 felé):
+   IP-cím: 192.168.2.1
+   Subnet mask: 255.255.255.240
+
+FastEthernet0/1 (ISP/Cluster felé):
+   IP-cím: 192.168.1.1
+   Subnet mask: 255.255.255.252
+
+☁️ Cluster0 (ISP szerep)
+Általában csak egy "átmeneti eszköz", nem kell külön IP-címet konfigurálni, csak továbbítja a jelet. Viszont ha szükséges, az egyik portjára az alábbi IP-t add meg:
+   IP-cím: 192.168.1.2
+   Subnet mask: 255.255.255.252
+
+🖥️ Server1
+   IP-cím: 192.168.1.2
+   Subnet mask: 255.255.255.252
+   Default gateway: 192.168.1.1 (Router0 WAN interfésze)
+
+
 
 💡 Ha a Server1-be új portot tettél (pl. PT-HOST-NM-1CFE), használd azt: pl. FastEthernet1
 

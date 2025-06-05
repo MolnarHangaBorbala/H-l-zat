@@ -152,9 +152,9 @@ Ah, I see! You've clarified that there's **no switch** involved, which simplifie
 * **Server0** provides **DHCP** services to devices in the **192.168.2.0/28** subnet.
 * **Server1** is in the **192.168.1.0/30** subnet.
 
-This setup should work perfectly in **Cisco Packet Tracer**, as long as the interfaces are configured correctly and devices are connected directly to each other. If you need additional help or hit any roadblocks, let me know!
+This setup should work perfectly in **Cisco Packet Tracer**, as long as the interfaces are configured correctly and devices are connected directly to each other.
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 A leírt hálózati topológia egy egyszerű, kapcsoló nélküli (switch nélküli) Cisco Packet Tracer-ben létrehozott hálózatot ábrázol, ahol a PC és a szerverek közvetlenül a routerhez kapcsolódnak. Nézzük meg lépésről lépésre, hogyan kell konfigurálni a hálózatot, és miként építhetjük fel a kapcsolatokat.
 
@@ -308,4 +308,4 @@ A leírt hálózati topológia egy egyszerű, kapcsoló nélküli (switch nélk�
 * **Server0** DHCP szolgáltatást biztosít a **192.168.2.0/28** alhálózaton lévő eszközök számára.
 * **Server1** a **192.168.1.0/30** alhálózaton van, és a **Router0** **Gig0/1** portját használja átjárónak.
 
-Ez a beállítás működni fog a **Cisco Packet Tracer**-ben. Ha bárhol elakadnál, vagy további kérdéseid vannak, bátran jelezd! :)
+Ez a beállítás működni fog a **Cisco Packet Tracer**-ben. 

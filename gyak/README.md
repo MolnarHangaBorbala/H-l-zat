@@ -155,6 +155,8 @@ Ah, I see! You've clarified that there's **no switch** involved, which simplifie
 This setup should work perfectly in **Cisco Packet Tracer**, as long as the interfaces are configured correctly and devices are connected directly to each other.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 A leírt hálózati topológia egy egyszerű, kapcsoló nélküli (switch nélküli) Cisco Packet Tracer-ben létrehozott hálózatot ábrázol, ahol a PC és a szerverek közvetlenül a routerhez kapcsolódnak. Nézzük meg lépésről lépésre, hogyan kell konfigurálni a hálózatot, és miként építhetjük fel a kapcsolatokat.
 
@@ -310,8 +312,10 @@ A leírt hálózati topológia egy egyszerű, kapcsoló nélküli (switch nélk�
 
 Ez a beállítás működni fog a **Cisco Packet Tracer**-ben. 
 
---------------------------------------------------------------------------------------------------------------
---------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Nézzük lépésről lépésre, hogyan kell kábelezni a **PC0**, **Router0**, **Server0**, és **Server1** eszközöket.
 
 ### **Hálózati eszközök és portok:**

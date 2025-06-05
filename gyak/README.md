@@ -45,13 +45,13 @@ FastEthernet0/1 (ISP/Cluster felé):
 
 ☁️ Cluster0 (ISP szerep)
 Általában csak egy "átmeneti eszköz", nem kell külön IP-címet konfigurálni, csak továbbítja a jelet. Viszont ha szükséges, az egyik portjára az alábbi IP-t add meg:
-   IP-cím: 192.168.1.2
-   Subnet mask: 255.255.255.252
+*   IP-cím: 192.168.1.2
+*   Subnet mask: 255.255.255.252
 
 🖥️ Server1
-   IP-cím: 192.168.1.2
-   Subnet mask: 255.255.255.252
-   Default gateway: 192.168.1.1 (Router0 WAN interfésze)
+*   IP-cím: 192.168.1.2
+*   Subnet mask: 255.255.255.252
+*   Default gateway: 192.168.1.1 (Router0 WAN interfésze)
 
 
 

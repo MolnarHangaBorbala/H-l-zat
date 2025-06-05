@@ -9,19 +9,19 @@
 
 2.Lépés: Összekötés
 
-      **1. PC0 ↔ Router0**
+      1. PC0 ↔ Router0
       Kábel: Copper Straight-Through
       Portok:
         PC0: FastEthernet0
         Router0: FastEthernet0/0
 
-      **2. Router0 ↔ Cluster0 (ISP)**
+      2. Router0 ↔ Cluster0 (ISP)
       Kábel: Copper Straight-Through
       Portok:
         Router0: FastEthernet0/1
         Cluster0: Ethernet port (pl. FastEthernet1)
 
-      **3. Cluster0 ↔ Server1**
+      3. Cluster0 ↔ Server1
       Kábel: Copper Straight-Through
       Portok:
         Cluster0: Ethernet port (pl. GigaEthernet)

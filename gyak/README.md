@@ -1,5 +1,6 @@
 **1.Lépés: Szerverbe modul berakása**
     **PT-HOST-NM-1CGE**
+    
     | Helyzet                                | Modul javaslat                                 |
     | -------------------------------------- | ---------------------------------------------- |
     | Server0 – másik eszköz is FastEthernet | `PT-HOST-NM-1CFE`                              |

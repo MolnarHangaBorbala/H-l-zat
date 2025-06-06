@@ -87,3 +87,8 @@ FastEthernet0/1 (ISP/Cluster felé):
 *   2 switch
 *   IP-cím számítás
 *   SSH
+
+elmélet:
+*   OSI
+*   forgalom irányítás
+*   OP rendszer

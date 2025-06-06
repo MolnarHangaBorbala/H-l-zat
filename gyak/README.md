@@ -80,9 +80,10 @@ FastEthernet0/1 (ISP/Cluster felé):
          Router(config)# no ip dhcp conflict logging
 
 **Ágazati**
-webserver 
-ISP
-2 router - statikus
-2 switch
-IP-cím számítás
-SSH
+
+*   webserver(talán)
+*   ISP
+*   2 router - statikus
+*   2 switch
+*   IP-cím számítás
+*   SSH

@@ -78,3 +78,11 @@ FastEthernet0/1 (ISP/Cluster felé):
    *! (Biztosításképp tiltsuk le az interfész saját DHCP igényét)
    
          Router(config)# no ip dhcp conflict logging
+
+**Ágazati**
+webserver 
+ISP
+2 router - statikus
+2 switch
+IP-cím számítás
+SSH
